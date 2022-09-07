@@ -8,3 +8,6 @@
 from supermarket import Supermarket
 
 supermarket = Supermarket()
+
+##Punto B.
+supermarket.add('Yogourt', 10, 'dairy')
