@@ -15,3 +15,7 @@ supermarket.add('Yogourt', 10, 'dairy')
 ##Punto C.
 supermarket.input_add()
 print(supermarket.dairy_products)
+
+##Punto D.
+supermarket.add('Yogourt',20,'dairy')
+print(supermarket.dairy_products)
