@@ -19,5 +19,7 @@ print(supermarket.dairy_products)
 ##Punto D.
 supermarket.add('Yogourt',20,'dairy')
 
+
 ##Punto E.
 supermarket.show_inventary()
+print(supermarket.dairy_products)
