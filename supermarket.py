@@ -45,5 +45,14 @@ class Supermarket:
                 new_stock = list[i][1] + stock 
                 list[i] = (item,new_stock)
                 found = True
-            i+=1        
-        if not found: list.append((item,stock)) 
+            i+=1       
+        if not found: list.append((item,stock))    
+    
+    ##Mostrando el inventario.
+    def show_inventary(self):
+        print('\tInventario\t')
+        print(f"Productos lacteos: {self.dairy_products}")
+        print(f"Productos de aseo: {self.grooming_products}")
+        print(f"Productos de grano: {self.grain_products}")
+
+
